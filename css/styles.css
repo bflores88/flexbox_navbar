@@ -2,3 +2,48 @@ body{
     margin: 0;
     font-family: 'ZCOOL KuaiLe', cursive;
 }
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+a {
+    color: mediumturquoise;
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: seagreen;
+}
+
+@media only screen and (max-width: 920px){
+    body{
+        background-color: lavender;
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(130, 240, 234);
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+}
